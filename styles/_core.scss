@@ -1,11 +1,12 @@
     // Variables
 
-    //background color
-    $color-bg-primary: hsl(0, 0%, 95%);
-    $color-card-bg-sedan: hsl(31, 77%, 52%);
-    $color-card-bg-suv: hsl(184, 100%, 22%);
-    $color-card-bg-luxury: hsl(179, 100%, 13%);
-    $color-card-bg-button: hsl(0, 0%, 95%);
+    //background color gradient
+    $color-bg-primary: hsl(273, 75%, 66%);
+    $color-bg-secondary: hsl(240, 73%, 65%);
+
+    //background color accordion
+    $color-bg-accordion: hsl(0, 0%, 95%);
+    $color-divider-accordion: hsl(240, 5%, 91%);
 
     //font color
     $color-accordion-title-h1: hsl(238, 29%, 16%);
@@ -20,7 +21,9 @@
     $font-size-accordion-paragraph: 12px;
 
     //font family
-    $font-family-accordion: 'Big Shoulders Display';
+    $font-family-accordion: 'Kumbh Sans',
+    sans-serif;
+    ;
     $font-weight-accordion-normal: 400;
     $font-weight-accordion-highlighted: 700;
 
