@@ -13,104 +13,15 @@ p {
 }
 
 body {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   line-height: 1.6;
-  background-color: hsl(0deg, 0%, 95%);
+  background-image: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
 }
 
-.container {
-  display: flex;
-  border-radius: 10px;
-  overflow: hidden;
-}
-@media (max-width: 992px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-.card--sedan {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  row-gap: 1rem;
-  width: 300px;
-  padding: 3rem;
-  background-color: hsl(31deg, 77%, 52%);
-}
-
-.card--suv {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  row-gap: 1rem;
-  width: 300px;
-  padding: 3rem;
-  background-color: hsl(184deg, 100%, 22%);
-}
-
-.card--luxury {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  row-gap: 1rem;
-  width: 300px;
-  padding: 3rem;
-  background-color: hsl(179deg, 100%, 13%);
-}
-
-.card__icon {
-  align-self: flex-start;
-}
-
-.card__title {
-  font-family: "Big Shoulders Display", cursive;
-  font-size: 2.5rem;
-  color: hsl(0deg, 0%, 95%);
-  text-transform: uppercase;
-}
-
-.card__paragraph {
-  font-family: "Lexend Deca", sans-serif;
-  font-size: 15px;
-  color: hsla(0deg, 0%, 100%, 0.75);
-}
-
-.card__button, .card__button--luxury, .card__button--suv, .card__button--sedan {
-  align-self: flex-start;
-  display: inline-block;
-  margin-top: 6rem;
-  padding: 1rem 2rem;
-  font-size: 15px;
-  background-color: hsl(0deg, 0%, 95%);
-  cursor: pointer;
-  border-color: hsl(0deg, 0%, 95%);
-  border-style: solid;
-  border-radius: 2.5rem;
-}
-@media (max-width: 992px) {
-  .card__button, .card__button--luxury, .card__button--suv, .card__button--sedan {
-    margin-top: 1rem;
-  }
-}
-
-.card__button--sedan {
-  color: hsl(31deg, 77%, 52%);
-}
-
-.card__button--suv {
-  color: hsl(184deg, 100%, 22%);
-}
-
-.card__button--luxury {
-  color: hsl(179deg, 100%, 13%);
-}
-
-.card__button:hover, .card__button--sedan:hover, .card__button--suv:hover, .card__button--luxury:hover {
-  background-color: transparent;
-  color: hsl(0deg, 0%, 95%);
+.accordion-item__toggle--on {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=style.css.map */
