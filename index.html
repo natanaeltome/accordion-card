@@ -15,13 +15,18 @@
                 <div class="container-accordion">
 
                     <div class="accordion-item">
-                        <h3>
-                            <button aria-expanded="false" aria-controls="accordion-panel-1" id="accordion-header-1">
+                        <h3 class="accordion-item__title">
+                            <button class="accordion-item__button" aria-expanded="false"
+                                aria-controls="accordion-panel-1" id="accordion-header-1" data-accordion-header>
                                 How many team members can I invite?
                             </button>
-                            <svg aria-hidden="true">...</svg>
+                            <svg class="accordion-item__toggle" aria-hidden="true" width="10" height="7"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none"
+                                    fill-rule="evenodd" /></svg>
                         </h3>
-                        <section id="accordion-panel-1" aria-labelledby="accordion-header-1" hidden>
+                        <section class="accordion-item__panel" id="accordion-panel-1"
+                            aria-labelledby="accordion-header-1" hidden>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -34,6 +39,7 @@
 
             </div>
         </main>
+        <script src="./scripts/accordion.js"></script>
     </body>
 
 </html>
