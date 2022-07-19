@@ -13,34 +13,34 @@
 
     <body>
         <main class="container-main">
-            <div class="containter-illustration">
-                <h1></h1>
-                <div class="container-accordion">
-
-                    <div class="accordion-item">
-                        <h3 class="accordion-item__title">
-                            <button class="accordion-item__button" aria-expanded="false"
-                                aria-controls="accordion-panel-1" id="accordion-header-1" data-accordion-header>
-                                How many team members can I invite?
-                            </button>
-                            <svg class="accordion-item__toggle" aria-hidden="true" width="10" height="7"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none"
-                                    fill-rule="evenodd" /></svg>
-                        </h3>
-                        <section class="accordion-item__panel" id="accordion-panel-1"
-                            aria-labelledby="accordion-header-1" hidden>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </section>
-                    </div>
-
-
-                </div>
-
+            <div class="container-illustration">
+                <img class="illustration__mobile" src="images/illustration-woman-online-mobile.svg" aria-hidden="true"
+                    alt="">
+                <img class="illustration__shadow" src="images/bg-pattern-mobile.svg" aria-hidden="true" alt="">
 
             </div>
+            <div class="container-accordion">
+                <h1>FAQ</h1>
+
+                <div class="accordion-item">
+                    <h3 class="item__title">
+                        <button class="item__button" aria-expanded="false" aria-controls="accordion-panel-1"
+                            id="accordion-header-1" data-accordion-header>
+                            How many team members can I invite?
+                            <img class="item__toggle" src="images/icon-arrow-down.svg" aria-hidden="true" alt="">
+                        </button>
+                        <div></div>
+                    </h3>
+                    <section class="item__panel" id="accordion-panel-1" aria-labelledby="accordion-header-1" hidden>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </section>
+                </div>
+            </div>
+
+
+
         </main>
         <script src="./scripts/accordion.js"></script>
     </body>

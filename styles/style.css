@@ -15,6 +15,7 @@ p {
 body {
   font-family: "Kumbh Sans", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -22,6 +23,47 @@ body {
   background-image: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
 }
 
-.accordion-item__toggle--on {
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 5% 5% 5%;
+  background-color: hsl(0deg, 0%, 95%);
+  border-radius: 10px;
+}
+
+.container-illustration {
+  position: relative;
+  top: -110px;
+}
+
+.illustration__shadow {
+  position: relative;
+  top: -80px;
+}
+
+.container-accordion {
+  position: relative;
+  top: -180px;
+}
+
+.accordion-item {
+  padding-bottom: 10px;
+  border-bottom: solid 2px hsl(240deg, 5%, 91%);
+}
+
+.item__button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.item__toggle {
+  margin-left: 20px;
+}
+
+.item__toggle--on {
   transform: rotate(180deg);
 }/*# sourceMappingURL=style.css.map */
